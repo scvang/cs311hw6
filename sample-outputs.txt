@@ -1,0 +1,61 @@
+Binary MinHeap
+   10    3    2   11    1    9
+
+****************************
+For file: sample1.txt
+
+
+Shortest path distances to all vertices
+
+Distance from 3 to 0: 38.2842712474619
+Distance from 3 to 1: 48.2842712474619
+Distance from 3 to 2: 10.0
+Distance from 3 to 3: 0.0
+Distance from 3 to 4: 14.142135623730951
+Distance from 3 to 5: 24.14213562373095
+Distance from 3 to 6: 29.14213562373095
+Distance from 3 to 7: 80.62257748298549
+Distance from 3 to 8: 85.62257748298549
+Distance from 3 to 9: -1.0
+
+
+Number of Shortest Paths from 3 to 6: 2
+
+Path from source to destination using some different valuations of relaxation parameters
+Params (A, B): 1, 0
+1 0 5 7 8 
+Params (A, B): 0, 1
+1 0 5 7 8 
+Params (A, B): 1, 1
+1 0 5 7 8 
+
+Trip from 3 to 8 via Intersections 5, 7 and 2
+3 2 5 7 4 2 4 7 8 
+
+Minimum Cost Reachability Tree of 3
+edge between 0 and 5
+edge between 1 and 0
+edge between 2 and 3
+edge between 4 and 2
+edge between 5 and 4
+edge between 6 and 5
+edge between 7 and 4
+edge between 8 and 7
+
+Cost of Reachability Tree 134.14213562373095
+
+
+Is Everything reachable from 3: false
+
+****************************
+For file: sample0.txt
+
+Path from source to destination using some different valuations of relaxation parameters
+Params (A, B): 1, 0
+0 1 2 3 
+Path from source to destination using some different valuations of relaxation parameters
+Params (A, B): 1, 1
+0 1 2 3 
+Path from source to destination using some different valuations of relaxation parameters
+Params (A, B): 0, 1
+0 4 3 
